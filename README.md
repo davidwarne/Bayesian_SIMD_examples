@@ -12,6 +12,7 @@ Contains example C code using OpenMP and Intel MKL/VSL to parallelise and vector
 Example applications are:
 1. Sampling of prior predicitve distributions for approximate Bayesian computation;
 2. Computation of Bayesian p-values for testing prior weak informativity. 
+3. Parameter inference for a computationally challenging econometrics model. 
 
 ## Developers
 David J. Warne (david.warne@qut.edu.au), School of Mathematical Sciences, Queensland University of Technology.
