@@ -3,7 +3,7 @@
 Supplementary Material to accompany the paper, 
 
 DJ Warne, SA Sisson, C Drovandi (2019) Acceleration of expensive computations in
-Bayesian statistics using vector operations. ArXiv pre-print TBA
+Bayesian statistics using vector operations. ArXiv pre-print (https://arxiv.org/abs/1902.09046)
 
 ## Summary
 
