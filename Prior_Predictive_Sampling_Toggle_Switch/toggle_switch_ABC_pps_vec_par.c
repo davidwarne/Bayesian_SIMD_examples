@@ -172,7 +172,7 @@ main(int argc,char **argv)
     /* get command line arguments*/
     if (argc < 2)
     {
-        fprintf(stderr,"Usage : [%s] sims seed [C] [T]\n",argv[0]);
+        fprintf(stderr,"Usage : [%s] sims seed [C] [T] [VEC %d ALIGN %d\n",argv[0],VECLEN,ALIGN);
         exit(1);
     }
     sims = (int)atoi(argv[1]);
@@ -211,6 +211,7 @@ main(int argc,char **argv)
         num_threads = omp_get_num_threads(); 
         sims_per_thread = sims/num_threads; 
         
+        fprintf(stderr,"ID: %d, total: %d sims : %d\n",thread_id,num_threads, sims_per_thread);
         /* initialise RNG stream for this thread*/
         vslNewStream(&stream,VSL_BRNG_MT2203+thread_id,seed);
         
