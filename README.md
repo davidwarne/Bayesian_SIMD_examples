@@ -2,12 +2,12 @@
 
 Supplementary Material to accompany the paper, 
 
-DJ Warne, SA Sisson, C Drovandi (2019) Acceleration of expensive computations in
-Bayesian statistics using vector operations. ArXiv pre-print (https://arxiv.org/abs/1902.09046)
+DJ Warne, SA Sisson, C Drovandi (2020) Vector operations for accelerating expensive
+Bayesian computations { a tutorial guide. ArXiv pre-print (TBA)
 
 ## Summary
 
-Contains example C code using OpenMP and Intel MKL/VSL to parallelise and vectorise Bayesian computations.
+Contains example R and C code to demonstrate the efficacy of OpenMP and Intel MKL/VSL to parallelise and vectorise Bayesian computations.
 
 Example applications are:
 1. Sampling of prior predicitve distributions for approximate Bayesian computation;
@@ -24,7 +24,7 @@ Scott A. Sisson (scott.sisson@unsw.edu.au), School of Mathematics and Statistics
 ## License
 
 Bayesian computations using SIMD operations
-Copyright (C) 2019  David J. Warne, Christopher C. Drovandi, Scott A. Sisson
+Copyright (C) 2020  David J. Warne, Christopher C. Drovandi, Scott A. Sisson
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
