@@ -3,7 +3,7 @@
 Supplementary Material to accompany the paper, 
 
 DJ Warne, SA Sisson, C Drovandi (2020) Vector operations for accelerating expensive
-Bayesian computations { a tutorial guide. ArXiv pre-print (TBA)
+Bayesian computations -- a tutorial guide. ArXiv pre-print (TBA)
 
 ## Summary
 
